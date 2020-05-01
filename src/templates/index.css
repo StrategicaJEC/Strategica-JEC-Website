@@ -1,5 +1,6 @@
 body{
 	background: none !important;
+	overflow-x: hidden !important;
 }
 
 .landing .carousel-caption {
