@@ -42,10 +42,9 @@ const Analytics = () => (
                         </ul>
                     </div>
                     <div className="col-md-6 d-flex justify-content-start align-items-start form-col flex-column text-left">
-
                         <h2>
                             Assistant Core Members
-                    </h2>
+                        </h2>
                         <hr
                             style={{
                                 zIndex: "1",

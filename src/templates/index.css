@@ -50,10 +50,13 @@ body{
 
 @media only screen and (max-width:900px){
 	.landing .carousel-caption{
-		margin-bottom: 10vh;
+		margin-bottom: 17vh;
 		padding: 1rem !important;
 	}
 	.landing h1{
 		font-size: 1.7rem !important;
 	}
+	.landing .carousel-caption-margin{
+		margin-bottom: 30vh;
+}
 }

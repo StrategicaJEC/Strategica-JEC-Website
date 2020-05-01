@@ -94,7 +94,7 @@ const Team = () => {
                     </div>
                     <div className="col-xl-3 col-lg-6 col-md-6 even">
                         <Member
-                            name="Sherya Simanta Sarmah" 
+                            name="Shreya Simanta Sarmah" 
                             role="Club Secretary"
                             url="https://i.picsum.photos/id/137/250/250.jpg"
                             noImage={true}
@@ -184,7 +184,7 @@ const Team = () => {
                 </div>
             </div>
             <div className="container alumuni sections">
-                <h1 className="text-center heading-t">ALUMUNI MEMBERS</h1>
+                <h1 className="text-center heading-t">ALUMNI MEMBERS</h1>
                 <hr/>
                 <div className="text-center mb-2">
                     <span>"Leaders instill in their people a hope for success and a belief in themselves. Positive leaders empower people to accomplish their goals."</span>
@@ -192,14 +192,14 @@ const Team = () => {
                 <div className="row">
                     <div className="col-md-6 odd">
                         <Member  
-                            name="Subhasmit Malakar" 
+                            name="Shubhasmit Malakar" 
                             role="Alumni Mentor"
                             url="https://res.cloudinary.com/dmmrlohoi/image/upload/v1588276822/Strategica/teams/alumni1_btacvj.jpg"
                         />
                     </div>
                     <div className="col-md-6 even">
                         <Member  
-                            name="Arnab Jyoti Bordoloi" 
+                            name="Arnab Kishor Bordoloi" 
                             role="Alumni Mentor"
                             url="https://res.cloudinary.com/dmmrlohoi/image/upload/v1588276822/Strategica/teams/alumni2_riqmba.jpg"
                         />
