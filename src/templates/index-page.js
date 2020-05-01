@@ -33,7 +33,7 @@ export const IndexPageTemplate = ({
                 <div className="carousel-caption d-md-block carousel-caption-main animated fadeInUp">
                   <img src="{Logo}" alt="" className="logo-hero" />
                   <h1 className="text-center"><u>WELCOME TO STRATEGICA</u></h1>
-                  <h4>Finance | Economics &amp; Consulting | Research | Analaytics</h4>
+                  <h4>Finance | Economics &amp; Consulting | Research | Analytics</h4>
                   <h5 className="mt-2">JORHAT ENGINEERING COLLEGE</h5>
                 </div>
               </div>
