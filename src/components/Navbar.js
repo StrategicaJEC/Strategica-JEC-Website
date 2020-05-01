@@ -16,6 +16,9 @@ const Navbar = () => {
             <div className="collapse navbar-collapse" id="collapsibleNavbar">
                 <ul className="navbar-nav">
                     <li className="nav-item">
+                        <Link to="/blog">Blog</Link>
+                    </li>
+                    <li className="nav-item">
                         <Link to="/team/">Team</Link>
                     </li>
                     <li className="nav-item dropdown">
@@ -43,10 +46,7 @@ const Navbar = () => {
                         <Link to="/gallery">Gallery</Link>
                     </li>
                     <li className="nav-item">
-                        <Link to="/blog">Blog</Link>
-                    </li>
-                    <li className="nav-item">
-                        <Link to="#">Collaborations</Link>
+                        <Link to="/collaborations">Collaborations</Link>
                     </li>
 
 

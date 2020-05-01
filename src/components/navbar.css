@@ -10,6 +10,10 @@ a {
     font-weight: 500 !important;
 }
 
+.navbar-brand{
+    min-height: 0 !important;
+}
+
 .navbar .brand-logo{
     width: 40px;
 }

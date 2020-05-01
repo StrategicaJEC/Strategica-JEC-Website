@@ -40,17 +40,15 @@ export const IndexPageTemplate = ({
               <div className="carousel-item">
                 <div className="image-0 d-block w-100" style={{ backgroundImage: 'url(https://i.picsum.photos/id/600/1920/1080.jpg)' }}></div>
                 <div className="carousel-caption d-md-block carousel-caption-margin animated fadeInUp">
-                  <h2><u>BLOG POST TITLE</u></h2>
+                  <h2><u>INTERESTING FACTS</u></h2>
                   <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti at eaque obcaecati autem, eveniet amet maiores necessitatibus rem cum incidunt.</p>
-                  <button type="button" className="btn btn-dark">READ MORE</button>
                 </div>
               </div>
               <div className="carousel-item">
                 <div className="image-0 d-block w-100" style={{ backgroundImage: 'url(https://i.picsum.photos/id/1058/1920/1080.jpg)' }}></div>
                 <div className="carousel-caption d-md-block carousel-caption-margin animated fadeInUp">
-                  <h2><u>BLOG POST TITLE</u></h2>
+                  <h2><u>ANYTHING</u></h2>
                   <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti at eaque obcaecati autem, eveniet amet maiores necessitatibus rem cum incidunt.</p>
-                  <button type="button" className="btn btn-dark">READ MORE</button>
                 </div>
               </div>
             </div>
@@ -87,13 +85,6 @@ export const IndexPageTemplate = ({
                   </div>
                 </div>
                 <Features gridItems={intro.blurbs} />
-                <div className="columns">
-                  <div className="column is-12 has-text-centered">
-                    <Link className="btn btn-danger btn btn-danger-danger" to="/products">
-                      See all products
-                    </Link>
-                  </div>
-                </div>
                 <div className="column is-12">
                   <h3 className="has-text-weight-semibold is-size-2">
                     Latest stories
