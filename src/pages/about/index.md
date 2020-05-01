@@ -1,11 +1,8 @@
 ---
-templateKey: 'about-page'
+templateKey: about-page
 path: /about
 title: About our values
 ---
-
-
-
 ## **STRATEGICA**
 
 Strategica is a intra-college students' community of Jorhat Engineering College, Assam, India, which hopes to work in close association with other clubs of the college.\
@@ -28,4 +25,3 @@ This club is mandated to inculcate the spirit of research, innovation and analyt
 * Conducting quizzes on finance, economics and sci-tech.
 * Conducting paper-presentation competitions during TECHNOVUS,PHOENIX.
 * Organising a 'In-House Budget Discussion' on the lines of IITs,NITs etc.
-
