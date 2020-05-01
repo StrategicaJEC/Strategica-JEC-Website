@@ -1,0 +1,85 @@
+.member-card {
+    background-color: rgba(255, 255, 255, 0.692);
+    width: 500px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+}
+
+.member-card h1{
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.member-card h3 {
+    font-size: 1rem;
+}
+
+.member-card .image {
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+.member-card img {
+    width: 250px;
+    transition: all 0.3s ease-in-out;
+}
+
+.member-card:hover img{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.member-card:hover .name h1{
+    text-decoration: underline;
+}
+
+.normal .name {
+    align-items: flex-start !important;
+}
+
+.invert .name {
+    align-items: flex-end !important;
+}
+.invert .name h1, .invert .name h3{
+    text-align: right;
+}
+
+@media only screen and (max-width: 600px) {
+    .member-card{
+        width: 75vw;
+        background-color: rgba(255, 255, 255, 0.904);
+    }
+    
+    .member-card .name {
+        padding: 1rem;
+    }
+
+    .member-card img {
+      width: 40vw;
+    }
+    .normal .image{
+        display: flex;
+        justify-content: flex-end !important;
+        align-items: center !important;
+    }
+    .member-card h1{
+        font-size: 1.5rem;
+        font-weight: 800;
+    }
+    
+    .member-card h3 {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .member-card .name h1 {
+        padding-bottom: 2rem;
+        transition: all 0.3s ease-in-out;
+    }
+    .member-card:hover .name h1 {
+        padding-bottom: 0;
+        transition: all 0.3s ease-in-out;
+    }
+}

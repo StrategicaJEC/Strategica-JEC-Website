@@ -1,98 +1,59 @@
 import React from 'react'
-import { Link } from 'gatsby'
-import github from '../img/github-icon.svg'
-import logo from '../img/logo.svg'
+import { Link } from "gatsby"
 
-const Navbar = class extends React.Component {
-  constructor(props) {
-    super(props)
-    this.state = {
-      active: false,
-      navBarActiveClass: '',
-    }
-  }
 
-  toggleHamburger = () => {
-    // toggle the active boolean in the state
-    this.setState(
-      {
-        active: !this.state.active,
-      },
-      // after state has been updated,
-      () => {
-        // set the class in state for the navbar accordingly
-        this.state.active
-          ? this.setState({
-              navBarActiveClass: 'is-active',
-            })
-          : this.setState({
-              navBarActiveClass: '',
-            })
-      }
-    )
-  }
+import './navbar.css'
 
-  render() {
+const Navbar = () => {
     return (
-      <nav
-        className="navbar is-transparent"
-        role="navigation"
-        aria-label="main-navigation"
-      >
-        <div className="container">
-          <div className="navbar-brand">
-            <Link to="/" className="navbar-item" title="Logo">
-              <img src={logo} alt="Kaldi" style={{ width: '88px' }} />
+        <nav className="navbar navbar-expand-md navbar-dark">
+            <Link to="/">
+                <span className="navbar-brand">STRATEGICA</span>
             </Link>
-            {/* Hamburger menu */}
-            <div
-              className={`navbar-burger burger ${this.state.navBarActiveClass}`}
-              data-target="navMenu"
-              onClick={() => this.toggleHamburger()}
-            >
-              <span />
-              <span />
-              <span />
+            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span className="navbar-toggler-icon" />
+            </button>
+            <div className="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul className="navbar-nav">
+                    <li className="nav-item">
+                        <Link to="/team/">Team</Link>
+                    </li>
+                    <li className="nav-item dropdown">
+                        <a className="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                            Wings
+                        </a>
+                        <div className="dropdown-menu">
+                            <Link to="/finance"><span className="dropdown-item">Finance</span></Link>
+                            <Link to="/analytics"><span className="dropdown-item">Analytics</span></Link>
+                            <Link to="/economics"><span className="dropdown-item">Economics & Consulting</span></Link>
+                            <Link to="/research"><span className="dropdown-item">Research</span></Link>
+                        </div>
+                    </li>
+
+                    {/* <li className="nav-item">
+                        <Link to="#">Social Media</Link>
+                    </li> */}
+                    <li className="nav-item">
+                        <Link to="/events">Events</Link>
+                    </li>
+                    <li className="nav-item">
+                        <Link to="/newsletter">Newsletter</Link>
+                    </li>
+                    <li className="nav-item">
+                        <Link to="/gallery">Gallery</Link>
+                    </li>
+                    <li className="nav-item">
+                        <Link to="/blog">Blog</Link>
+                    </li>
+                    <li className="nav-item">
+                        <Link to="#">Collaborations</Link>
+                    </li>
+
+
+                </ul>
             </div>
-          </div>
-          <div
-            id="navMenu"
-            className={`navbar-menu ${this.state.navBarActiveClass}`}
-          >
-            <div className="navbar-start has-text-centered">
-              <Link className="navbar-item" to="/about">
-                About
-              </Link>
-              <Link className="navbar-item" to="/products">
-                Products
-              </Link>
-              <Link className="navbar-item" to="/blog">
-                Blog
-              </Link>
-              <Link className="navbar-item" to="/contact">
-                Contact
-              </Link>
-              <Link className="navbar-item" to="/contact/examples">
-                Form Examples
-              </Link>
-            </div>
-            <div className="navbar-end has-text-centered">
-              <a
-                className="navbar-item"
-                href="https://github.com/netlify-templates/gatsby-starter-netlify-cms"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <span className="icon">
-                  <img src={github} alt="Github" />
-                </span>
-              </a>
-            </div>
-          </div>
-        </div>
-      </nav>
+        </nav>
     )
-  }
 }
 
 export default Navbar

@@ -1,0 +1,11 @@
+.footer .copyright{
+    background-color: black !important;
+    color: rgb(255, 255, 255);
+    padding: 0.5rem;
+}
+
+@media only screen and (min-width: 600px) {
+    .footer .creators{
+        text-align: right;
+    }
+}

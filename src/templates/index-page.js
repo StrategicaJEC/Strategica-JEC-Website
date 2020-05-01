@@ -5,6 +5,9 @@ import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
+import SocialBar from '../components/SocialBar'
+
+import './index.css'
 
 export const IndexPageTemplate = ({
   image,
@@ -15,55 +18,52 @@ export const IndexPageTemplate = ({
   description,
   intro,
 }) => (
-  <div>
-    <div
-      className="full-width-image margin-top-0"
-      style={{
-        backgroundImage: `url(${
-          !!image.childImageSharp ? image.childImageSharp.fluid.src : image
-        })`,
-        backgroundPosition: `top left`,
-        backgroundAttachment: `fixed`,
-      }}
-    >
-      <div
-        style={{
-          display: 'flex',
-          height: '150px',
-          lineHeight: '1',
-          justifyContent: 'space-around',
-          alignItems: 'left',
-          flexDirection: 'column',
-        }}
-      >
-        <h1
-          className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
-          style={{
-            boxShadow:
-              'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
-            backgroundColor: 'rgb(255, 68, 0)',
-            color: 'white',
-            lineHeight: '1',
-            padding: '0.25em',
-          }}
-        >
-          {title}
-        </h1>
-        <h3
-          className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
-          style={{
-            boxShadow:
-              'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
-            backgroundColor: 'rgb(255, 68, 0)',
-            color: 'white',
-            lineHeight: '1',
-            padding: '0.25em',
-          }}
-        >
-          {subheading}
-        </h3>
-      </div>
-    </div>
+  <div className="landing">
+    <SocialBar/>
+    <div className="hero">
+          <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
+            <ol className="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to={0} className="active" />
+              <li data-target="#carouselExampleIndicators" data-slide-to={1} />
+              <li data-target="#carouselExampleIndicators" data-slide-to={2} />
+            </ol>
+            <div className="carousel-inner">
+              <div className="carousel-item active">
+                <div className="image-0 d-block w-100" style={{ backgroundImage: 'url(https://i.picsum.photos/id/1076/1920/1080.jpg)' }}></div>
+                <div className="carousel-caption d-md-block carousel-caption-main animated fadeInUp">
+                  <img src="{Logo}" alt="" className="logo-hero" />
+                  <h1 className="text-center"><u>WELCOME TO STRATEGICA</u></h1>
+                  <h4>Finance | Economics &amp; Consulting | Research | Analaytics</h4>
+                  <h5 className="mt-2">JORHAT ENGINEERING COLLEGE</h5>
+                </div>
+              </div>
+              <div className="carousel-item">
+                <div className="image-0 d-block w-100" style={{ backgroundImage: 'url(https://i.picsum.photos/id/600/1920/1080.jpg)' }}></div>
+                <div className="carousel-caption d-md-block carousel-caption-margin animated fadeInUp">
+                  <h2><u>BLOG POST TITLE</u></h2>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti at eaque obcaecati autem, eveniet amet maiores necessitatibus rem cum incidunt.</p>
+                  <button type="button" className="btn btn-dark">READ MORE</button>
+                </div>
+              </div>
+              <div className="carousel-item">
+                <div className="image-0 d-block w-100" style={{ backgroundImage: 'url(https://i.picsum.photos/id/1058/1920/1080.jpg)' }}></div>
+                <div className="carousel-caption d-md-block carousel-caption-margin animated fadeInUp">
+                  <h2><u>BLOG POST TITLE</u></h2>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti at eaque obcaecati autem, eveniet amet maiores necessitatibus rem cum incidunt.</p>
+                  <button type="button" className="btn btn-dark">READ MORE</button>
+                </div>
+              </div>
+            </div>
+            <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span className="carousel-control-prev-icon" aria-hidden="true" />
+              <span className="sr-only">Previous</span>
+            </a>
+            <a className="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span className="carousel-control-next-icon" aria-hidden="true" />
+              <span className="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
     <section className="section section--gradient">
       <div className="container">
         <div className="section">
@@ -89,7 +89,7 @@ export const IndexPageTemplate = ({
                 <Features gridItems={intro.blurbs} />
                 <div className="columns">
                   <div className="column is-12 has-text-centered">
-                    <Link className="btn" to="/products">
+                    <Link className="btn btn-danger btn btn-danger-danger" to="/products">
                       See all products
                     </Link>
                   </div>
@@ -100,7 +100,7 @@ export const IndexPageTemplate = ({
                   </h3>
                   <BlogRoll />
                   <div className="column is-12 has-text-centered">
-                    <Link className="btn" to="/blog">
+                    <Link className="btn btn-danger" to="/blog">
                       Read more
                     </Link>
                   </div>

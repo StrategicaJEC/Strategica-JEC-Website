@@ -1,0 +1,83 @@
+.research {
+	padding: 0 !important;
+	box-shadow: 0 0px 20px -5px black;
+	background-color: rgba(255, 255, 255, 0.76);
+}
+
+.research .heading-row {
+	background-color: rgb(0, 9, 133);
+	color: rgb(255, 255, 255);
+	margin: 0;
+	padding: 1rem;
+}
+
+.research .heading-row h1 {
+	margin: 0 !important;
+}
+
+.research-wrapper{
+	padding: 15vh 0;
+}
+
+  .research-wrapper::after {
+	content: "";
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background-image: url(../images/art-4.png);
+	filter: blur(7px);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center 20%;
+	z-index: -1;
+  }
+  
+  .research .row {
+	width: 100%;
+  }
+  
+  .research .details {
+	  padding: 2rem 3rem;
+  }
+  
+  /* .research .details::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-image: url(../images/art-2.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	z-index: -1;
+  } */
+
+  .research .team-image {
+	  width: 100%;
+	  background-color: rgb(0, 9, 133);
+	  padding: 0.5rem;
+	  box-shadow: 0 0px 20px -5px black;
+  }
+  
+  .research .form-col{
+	  padding: 2rem 3rem;
+  }
+
+  .research ul li{
+	  padding: 0.3rem 0;
+  }
+  
+  @media only screen and (max-width: 800px) {
+	  .research::before{
+		  display: none;
+	  }
+	  .research{
+		  padding-bottom: 0;
+	  }
+  
+  }
+  

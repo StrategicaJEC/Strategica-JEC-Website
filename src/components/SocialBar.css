@@ -1,0 +1,33 @@
+.socialBar {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 1rem;
+    z-index: 99;
+}
+
+.socialBar .fab {
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+
+.socialBar  .socialItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    color: white;
+    cursor: pointer;
+}
+
+.socialBar .socialItem:hover{
+    transform: scale(1.1);
+    transition: all 0.1s linear;
+}
+
+@media only screen and (max-width:600px){
+    .socialBar{
+        left: 0;
+    }
+}
