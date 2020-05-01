@@ -8,6 +8,7 @@ import './research.css'
 
 const Research = () => (
     <Layout>
+    <SEO title="Research"/>
         <div className="research-wrapper">
             <div className="container research d-flex justify-content-center align-items-center flex-column animated fadeIn slow">
                 <div className="row">

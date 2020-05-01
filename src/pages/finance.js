@@ -8,6 +8,7 @@ import './finance.css'
 
 const Finance = () => (
     <Layout>
+    <SEO title="Finance"/>
         <div className="finance-wrapper">
             <div className="container finance d-flex justify-content-center align-items-center flex-column animated fadeIn slow">
                 <div className="row">

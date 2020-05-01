@@ -7,6 +7,7 @@ import "./events.css";
 const About = () => {
     return (
         <Layout>
+        <SEO title="Events"/>
             <div className="events animated fadeIn">
                 <div className="container banner">
                     <h1 className="display-3">EVENTS</h1>

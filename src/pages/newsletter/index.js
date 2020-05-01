@@ -2,6 +2,8 @@ import React from 'react'
 import { navigate } from 'gatsby-link'
 import Layout from '../../components/Layout'
 
+import SEO from '../../components/seo'
+
 function encode(data) {
   return Object.keys(data)
     .map((key) => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
@@ -36,6 +38,7 @@ export default class Index extends React.Component {
   render() {
     return (
       <Layout>
+      <SEO title="Newsletter"/>
         <section className="section animated fadeIn">
           <div className="container">
             <div className="content">
