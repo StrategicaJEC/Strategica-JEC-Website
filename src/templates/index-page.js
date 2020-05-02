@@ -29,7 +29,7 @@ export const IndexPageTemplate = ({
             </ol>
             <div className="carousel-inner">
               <div className="carousel-item active">
-                <div className="image-0 d-block w-100" style={{ backgroundImage: 'url(https://i.picsum.photos/id/1076/1920/1080.jpg)' }}></div>
+                <div className="image-0 d-block w-100" style={{ backgroundImage: 'url(https://res.cloudinary.com/dog2bkgwo/image/upload/v1588420786/Backgrounds/hero_eoieto.jpg)' }}></div>
                 <div className="carousel-caption d-md-block carousel-caption-main animated fadeInUp">
                   <img src="https://res.cloudinary.com/dog2bkgwo/image/upload/v1588403925/Logo/strategica-logo_sqscev.jpg" alt="" className="logo-hero" />
                   <h1 className="text-center"><u>WELCOME TO STRATEGICA</u></h1>
@@ -38,20 +38,20 @@ export const IndexPageTemplate = ({
                 </div>
               </div>
               <div className="carousel-item">
-                <div className="image-0 d-block w-100" style={{ backgroundImage: 'url(https://i.picsum.photos/id/600/1920/1080.jpg)' }}></div>
+                <div className="image-0 d-block w-100" style={{ backgroundImage: 'url(https://res.cloudinary.com/dog2bkgwo/image/upload/v1588424984/Backgrounds/person-writing-on-notebook-669615_kft84q.jpg)' }}></div>
                 <div className="carousel-caption d-md-block carousel-caption-margin animated fadeInUp">
-                  <h2><u>INTERESTING BLOG POSTS</u></h2>
-                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti at eaque obcaecati autem, eveniet amet maiores necessitatibus rem cum incidunt.</p>
+                  <h2><u>Interesting Blog Posts</u></h2>
+                  <p>Keep up with our latest work</p>
                   <Link className="btn btn-dark" to="/about">
                     Go to Blogs →
                   </Link>
                 </div>
               </div>
               <div className="carousel-item">
-                <div className="image-0 d-block w-100" style={{ backgroundImage: 'url(https://i.picsum.photos/id/1058/1920/1080.jpg)' }}></div>
+                <div className="image-0 d-block w-100" style={{ backgroundImage: 'url(https://res.cloudinary.com/dog2bkgwo/image/upload/v1588420786/Backgrounds/top-view-photo-of-people-near-wooden-table-3183150_a2vgty_dhdlgy.jpg)' }}></div>
                 <div className="carousel-caption d-md-block carousel-caption-margin animated fadeInUp">
-                  <h2><u>ABOUT US</u></h2>
-                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti at eaque obcaecati autem, eveniet amet maiores necessitatibus rem cum incidunt.</p>
+                  <h2><u>About Us</u></h2>
+                  <p>Strategica is a intra-college students' community of Jorhat Engineering College, Assam, India, which hopes to work in close association with other clubs of the college.</p>
                   <Link className="btn btn-dark" to="/about">
                     Know more →
                   </Link>

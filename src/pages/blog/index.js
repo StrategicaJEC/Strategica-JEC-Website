@@ -11,9 +11,9 @@ export default class BlogIndexPage extends React.Component {
       <Layout>
       <SEO title="Blogs"/>
         <div
-          className="full-width-image-container margin-top-0 animated zoomIn"
+          className="full-width-image-container margin-top-0"
           style={{
-            backgroundImage: `url(https://res.cloudinary.com/dog2bkgwo/image/upload/v1588409916/Backgrounds/girl-writing-on-a-black-keyboard-6469_s5teqo.jpg)`,
+            backgroundImage: `url(https://res.cloudinary.com/dog2bkgwo/image/upload/v1588420785/Backgrounds/girl-writing-on-a-black-keyboard-6469_s5teqo_ezmrq2.jpg)`,
             overflow: 'hidden',
             backgroundPosition: 'center 0%'
           }}
@@ -30,7 +30,7 @@ export default class BlogIndexPage extends React.Component {
             Latest Stories
           </h1>
         </div>
-        <section className="section animated fadeInUp" style={{overflow:'hidden'}}>
+        <section className="section animated fadeIn slow" style={{overflow:'hidden'}}>
           <div className="container">
             <div className="content">
               <BlogRoll />

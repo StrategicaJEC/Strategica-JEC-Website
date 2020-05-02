@@ -110,7 +110,7 @@ const Footer = class extends React.Component {
                             </span>
             </div>
             <div className="col-md-6 pointer creators">
-              Website by &nbsp;
+              Website developed by &nbsp;
                             <a href="https://www.linkedin.com/in/rishi-gogoi/" target="_blank" rel="noreferrer noopener">
                 Rishparn Gogoi
                             </a>

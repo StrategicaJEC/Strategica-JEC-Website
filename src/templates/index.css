@@ -10,7 +10,7 @@ body{
 }
 
 .landing .carousel-caption-margin{
-	background-color: rgba(255, 255, 255, 0.829);
+	background-color: rgba(255, 255, 255, 0.87);
 	margin-bottom: 30vh;
 }
 
@@ -24,7 +24,6 @@ body{
 }
 
 .landing .logo-hero {
-	width: 20vw;
 	margin-bottom: 2rem;
 }
 
@@ -50,14 +49,14 @@ body{
 
 @media only screen and (max-width:900px){
 	.landing .carousel-caption{
-		margin-bottom: 17vh;
+		margin-bottom: 10vh;
 		padding: 1rem !important;
 	}
 	.landing h1{
 		font-size: 1.7rem !important;
 	}
 	.landing .carousel-caption-margin{
-		margin-bottom: 30vh;
+		margin-bottom: 20vh;
 	}
 	.social-bar-fixed{
        right: 0rem !important;
@@ -66,6 +65,12 @@ body{
         width: 40px;
         height: 40px;
     }
+}
+
+@media only screen and (min-width:900px) {
+	.landing .logo-hero {
+		width: 20vw;
+	}
 }
 
 .social-bar-fixed {

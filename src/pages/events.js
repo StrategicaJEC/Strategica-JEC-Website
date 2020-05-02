@@ -9,7 +9,7 @@ const About = () => {
         <Layout>
         <SEO title="Events"/>
             <div className="events">
-                <div className="container-fluid banner animated zoomIn">
+                <div className="container-fluid banner">
                     <h1 className="display-3">Events and Activities</h1>
                 </div>
                 <div className="container-fluid py-4 main animated fadeIn slow">

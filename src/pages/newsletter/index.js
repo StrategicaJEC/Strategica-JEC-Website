@@ -42,7 +42,7 @@ export default class Index extends React.Component {
         <section className="section animated fadeIn">
           <div className="container">
             <div className="content">
-              <h1>Subscribe to our awesome newsletter!</h1>
+              <h1>Subscribe to our newsletter!</h1>
               <form
                 name="contact"
                 method="post"

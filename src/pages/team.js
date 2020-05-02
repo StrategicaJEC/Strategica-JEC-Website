@@ -68,7 +68,7 @@ const Team = () => {
                             name="Syed Ibtisam Tauhidi" 
                             role="Assistant Professor" 
                             dep="Computer Science and Engineering"
-                            url="https://res.cloudinary.com/dog2bkgwo/image/upload/v1588403528/Team/Syed_Ibtisam_Tauhidi_wds234.jpg"
+                            url="https://res.cloudinary.com/dog2bkgwo/image/upload/v1588424618/Team/Syed-Ibtisam-Tauhidi_l5yche.jpg"
                         />
                     </div>
                     <div className="col-sm-6 my-2 even">
@@ -76,7 +76,7 @@ const Team = () => {
                             name="Pankaj Sharma" 
                             role="Assistant Professor" 
                             dep="Electrical Engineering"
-                            url="https://res.cloudinary.com/dog2bkgwo/image/upload/v1588403528/Team/Pankaj_Sharma_beugzx.jpg"
+                            url="https://res.cloudinary.com/dog2bkgwo/image/upload/v1588424618/Team/Pankaj-Sharma_hf7wdq.jpg"
                         />
                     </div>
                 </div>
@@ -187,14 +187,14 @@ const Team = () => {
                         <Member  
                             name="Shubhasmit Malakar" 
                             role="Alumni Mentor"
-                            url="https://res.cloudinary.com/dog2bkgwo/image/upload/v1588403593/Team/Shubhasmit_Malakar_pipenc.jpg"
+                            url="https://res.cloudinary.com/dog2bkgwo/image/upload/v1588424822/Team/Shubhasmit--Malakar_-Alumni-Mentor_b2a9zq.jpg"
                         />
                     </div>
                     <div className="col-md-6 even">
                         <Member  
                             name="Arnab Kishor Bordoloi" 
                             role="Alumni Mentor"
-                            url="https://res.cloudinary.com/dog2bkgwo/image/upload/v1588403592/Team/Arnab_Kishor_Bordoloi_huw0jz.jpg"
+                            url="https://res.cloudinary.com/dog2bkgwo/image/upload/v1588424823/Team/Arnab-Bordoloi_-Alumni-Mentor_ag0upb.jpg"
                         />
                     </div>
                 </div>
@@ -204,7 +204,7 @@ const Team = () => {
                             invert={true}  
                             name="Nishant Saikia"
                             role="Alumni Mentor"
-                            url="https://res.cloudinary.com/dog2bkgwo/image/upload/v1588403594/Team/Nishant_Saikia_rdwevk.jpg"
+                            url="https://res.cloudinary.com/dog2bkgwo/image/upload/v1588424821/Team/Nishant-Saikia_-Alumni-Mentor_gcrbj5.jpg"
                         />
                     </div>
                     <div className="col-md-6 even">
@@ -212,7 +212,7 @@ const Team = () => {
                             invert={true}  
                             name="Kharan Basumatary" 
                             role="Alumni Mentor"
-                            url="https://res.cloudinary.com/dog2bkgwo/image/upload/v1588403592/Team/Kharan_Basumatary_iqzxdw.jpg"
+                            url="https://res.cloudinary.com/dog2bkgwo/image/upload/v1588424821/Team/Kharan-Basumatary_d5dzsh.jpg"
                         />
                     </div>
                 </div>
@@ -228,14 +228,14 @@ const Team = () => {
                         <Member  
                             name="Trideep Kr. Batchayan" 
                             role="Senior Member"
-                            url="https://res.cloudinary.com/dog2bkgwo/image/upload/v1588403664/Team/Trideep_Kr._Batchayan_kkp7ge.jpg"
+                            url="https://res.cloudinary.com/dog2bkgwo/image/upload/v1588424730/Team/Trideep-Kr-Batchayan_-Mentor_dchv06.jpg"
                         />
                     </div>
                     <div className="col-md-6 even">
                         <Member  
                             name="Dibyajyoti Chatterjee" 
                             role="Senior Member"
-                            url="https://res.cloudinary.com/dog2bkgwo/image/upload/v1588403663/Team/Dibyajyoti_Chatterjee_nwwqcw.jpg"
+                            url="https://res.cloudinary.com/dog2bkgwo/image/upload/v1588424730/Team/Dibyajyoti-Chatterjee_rtnxha.jpg"
                         />
                     </div>
                 </div>
@@ -245,7 +245,7 @@ const Team = () => {
                             invert={true}  
                             name="Partha Pratim Mazumder" 
                             role="Senior Member"
-                            url="https://res.cloudinary.com/dog2bkgwo/image/upload/v1588403663/Team/Partha_Pratim_Mazumder_qsjd5b.jpg"
+                            url="https://res.cloudinary.com/dog2bkgwo/image/upload/v1588424730/Team/Partha-Pratim-Majumder_-Mentor_xuxhve.jpg"
                         />
                     </div>
                     <div className="col-md-6 even">
@@ -253,7 +253,7 @@ const Team = () => {
                             invert={true}  
                             name="Rohit Deka" 
                             role="Senior Member"
-                            url="https://res.cloudinary.com/dog2bkgwo/image/upload/v1588403663/Team/Rohit_Deka_xfnjuq.jpg"
+                            url="https://res.cloudinary.com/dog2bkgwo/image/upload/v1588424729/Team/Rohit-Deka_jmtzpm.jpg"
                         />
                     </div>
                 </div>
@@ -263,7 +263,7 @@ const Team = () => {
                             invert={true}  
                             name="Jayant Siktia" 
                             role="Senior Member"
-                            url="https://res.cloudinary.com/dog2bkgwo/image/upload/v1588403663/Team/Jayant_Siktia_xbfhgr.jpg"
+                            url="https://res.cloudinary.com/dog2bkgwo/image/upload/v1588424731/Team/Jayant-Siktia_qyefga.jpg"
                         />
                     </div>
                 </div>

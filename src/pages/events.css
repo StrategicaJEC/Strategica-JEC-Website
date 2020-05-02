@@ -12,7 +12,7 @@
   /* align-items: center; */
   text-align: center;
   padding: 0 !important;
-  background: url(https://res.cloudinary.com/dog2bkgwo/image/upload/v1588412030/Backgrounds/low-angle-photography-of-pile-of-stainless-steel-chairs-with-691485_osongl.jpg);
+  background: url(https://res.cloudinary.com/dog2bkgwo/image/upload/v1588420784/Backgrounds/low-angle-photography-of-pile-of-stainless-steel-chairs-with-691485_osongl_g87uux.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 40%;
@@ -148,6 +148,11 @@
   
   /* Media queries - Responsive timeline on screens less than 600px wide */
   @media screen and (max-width: 900px) {
+    .events .banner h1 {
+      background-color: rgba(255, 255, 255, 0.911);
+      padding: 0rem;
+      font-weight: normal;
+    }
   /* Place the timelime to the left */
   .events  .timeline::after {
       left: 31px;

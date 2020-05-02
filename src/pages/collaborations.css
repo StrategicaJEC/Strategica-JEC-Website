@@ -12,7 +12,7 @@
   /* align-items: center; */
   text-align: center;
   padding: 0 !important;
-  background: url(https://res.cloudinary.com/dog2bkgwo/image/upload/v1588411477/Backgrounds/top-view-photo-of-people-near-wooden-table-3183150_a2vgty.jpg);
+  background: url(https://res.cloudinary.com/dog2bkgwo/image/upload/v1588420786/Backgrounds/top-view-photo-of-people-near-wooden-table-3183150_a2vgty_dhdlgy.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 40%;
@@ -29,5 +29,13 @@
 
 .collab img {
     height: 20rem;
+}
+
+@media only screen and (max-width:900px) {
+  .events .banner h1 {
+    background-color: rgba(255, 255, 255, 0.911);
+    padding: 0rem;
+    font-weight: normal;
+  }
 }
 
