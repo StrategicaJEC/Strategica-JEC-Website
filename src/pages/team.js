@@ -47,7 +47,7 @@ const Team = () => {
     
     return(
     <Layout>
-        <SEO title="Team" />
+        <SEO title="Team" description="The team members of Strategica, Jorhat Engineering College"/>
         <div className="particle-cover">
             <Particles className="particles animated fadeIn delay-1s" params={paraticlesOptions} />
         </div>

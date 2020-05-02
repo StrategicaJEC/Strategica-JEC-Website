@@ -7,7 +7,7 @@ import './analytics.css'
 
 const Analytics = () => (
     <Layout>
-        <SEO title="Analytics"/>
+        <SEO title="Analytics" description="Analytics 2020 Team of Strategica, Jorhat Engineering College"/>
         <div className="analytics-wrapper">
             <div className="container analytics d-flex justify-content-center align-items-center flex-column animated fadeIn slow">
                 <div className="row">

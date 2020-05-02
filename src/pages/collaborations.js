@@ -8,7 +8,7 @@ import './collaborations.css'
 const Collaborations = () => {
     return (
         <Layout>
-            <SEO title="Events" />
+            <SEO title="Events" description="Collaborations of Strategica, Jorhat Engineering College with other organizations, Jorhat Engineering College" />
             <div className="collab">
                 <div className="container-fluid banner">
                     <h1>COLLABORATOINS</h1>

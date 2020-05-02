@@ -7,7 +7,7 @@ import "./events.css";
 const About = () => {
     return (
         <Layout>
-        <SEO title="Events"/>
+        <SEO title="Events" description="Events organized by Strategica, Jorhat Engineering College"/>
             <div className="events">
                 <div className="container-fluid banner">
                     <h1 className="display-3">Events and Activities</h1>

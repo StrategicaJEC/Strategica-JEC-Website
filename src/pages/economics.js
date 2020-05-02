@@ -8,7 +8,7 @@ import './economics.css'
 
 const Economics = () => (
     <Layout>
-    <SEO title="Economics & Consulting"/>
+    <SEO title="Economics & Consulting"  description="Economics & Consulting 2020 Team of Strategica, Jorhat Engineering College"/>
         <div className="economics-wrapper">
             <div className="container economics d-flex justify-content-center align-items-center flex-column animated fadeIn slow">
                 <div className="row">
