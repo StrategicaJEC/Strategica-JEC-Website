@@ -7,7 +7,7 @@ const SocialBar = () => {
     return (
         <div className="socialBar">
             <div className="socialItem" style={{ backgroundColor: '#4064ad' }}>
-                <OutboundLink href="https://www.facebook.com" target="_new">
+                <OutboundLink href="https://www.facebook.com/strategicajecofficial/" target="_new">
                     <i class="fab fa-facebook-f" />
                 </OutboundLink>
             </div>

@@ -1,23 +1,35 @@
 
   
 
+  
+
 # Strategica JEC
+
+  
 
   
 
 Strategica is a intra-college students' community of Jorhat Engineering College, Assam, India, which hopes to work in close association with other clubs of the college.
 
   
+
   
 
 This club is mandated to inculcate the spirit of research, innovation and analytical knowledge and also catering to the cause of enhancing financial literacy and economic knowledge amongst the students of JEC. This club is also intended to serve the interests of aspiring researchers and give them a platform to present their papers on science, technology,management, economics and finance-the five pillars of Industry 4.0.
 
   
-  [GO TO WEBSITE](https://mystifying-nobel-71d5f4.netlify.app/)
+
+[GO TO WEBSITE](https://mystifying-nobel-71d5f4.netlify.app/)
+
+  
 
 ### Google Analytics is integrated in this website
 
+  
+
 [Go to Google Analytics Dashboard](https://analytics.google.com/analytics/web/)
+
+  
 
   
 
@@ -25,7 +37,11 @@ This club is mandated to inculcate the spirit of research, innovation and analyt
 
   
 
+  
+
 - Go to the website.
+
+  
 
   
 
@@ -33,7 +49,12 @@ This club is mandated to inculcate the spirit of research, innovation and analyt
 
   
 
+  
+
 - Enter your credentials.
+(Use of the common account of the club is not recomended)
+
+  
 
   
 
@@ -41,35 +62,63 @@ This club is mandated to inculcate the spirit of research, innovation and analyt
 
   
 
+  
+
 - Uploading a featured image is mandatory. It is used as the thumbnail of the blog post.
+
+  
 
   
 
 ## Requesting access to admin rights
 
+  
+
 - [Send an email to Strategica](mailto:strategica.jec@gmail.com?subject=Requesting%20access%20to%20Strategica%27s%20admin%20panel)
+
+  
 
 - [Send an email to Rishparn Gogoi](mailto:gogoi.rishparn@gmail.com?subject=Requesting%20access%20to%20Strategica%27s%20admin%20panel)
 
   
 
+  
+
 ## Features
+
+  
 
 - Very simple UI of the CMS to post new contents.
 
+  
+
 - **Excellent SEO** as the website uses pre-rendered webpages.
 
+  
+
 - **Google Analytics** set up with real time monitoring and custom events tracking settings.
+
+  
 
 (Data collected anonymously complying current Policy for **Internet Privacy** in India)
 
   
 
+  
+
 ## Precautions
+
+  
 
 - Do not change the original URL of the netlify site.
 
+  
+
 - Always fill out the 'alt' textfields when asked.
+
+- Blog post with exactly the same title should not be posted on the same date.
+
+  
 
   
 
@@ -77,11 +126,23 @@ This club is mandated to inculcate the spirit of research, innovation and analyt
 
   
 
+  
+
 # For Developers
 
   
 
+### To test this site locally
+
+    git clone https://github.com/StrategicaJEC/Strategica-JEC-Website.git
+    cd Strategica-JEC-Website/
+    npm install
+    gatsby develop
+
+
 ## Gatsby + Netlify CMS Starter
+
+  
 
   
 
@@ -93,7 +154,11 @@ This club is mandated to inculcate the spirit of research, innovation and analyt
 
   
 
+  
+
 **Note:** This starter uses [Gatsby v2](https://www.gatsbyjs.org/blog/2018-09-17-gatsby-v2/).
+
+  
 
   
 
@@ -105,7 +170,11 @@ This repo contains an example business website that is built with [Gatsby](https
 
   
 
+  
+
 It follows the [JAMstack architecture](https://jamstack.org) by using Git as a single source of truth, and [Netlify](https://www.netlify.com) for continuous deployment, and CDN distribution.
+
+  
 
   
 
@@ -117,7 +186,11 @@ It follows the [JAMstack architecture](https://jamstack.org) by using Git as a s
 
   
 
+  
+
 - A simple landing page with blog functionality built with Netlify CMS
+
+  
 
   
 
@@ -125,7 +198,11 @@ It follows the [JAMstack architecture](https://jamstack.org) by using Git as a s
 
   
 
+  
+
 - Create Blog posts from Netlify CMS
+
+  
 
   
 
@@ -133,7 +210,11 @@ It follows the [JAMstack architecture](https://jamstack.org) by using Git as a s
 
   
 
+  
+
 - Basic directory organization
+
+  
 
   
 
@@ -141,7 +222,11 @@ It follows the [JAMstack architecture](https://jamstack.org) by using Git as a s
 
   
 
+  
+
 - Blazing fast loading times thanks to pre-rendered HTML and automatic chunk loading of JS files
+
+  
 
   
 
@@ -149,7 +234,11 @@ It follows the [JAMstack architecture](https://jamstack.org) by using Git as a s
 
   
 
+  
+
 - Separate components for everything
+
+  
 
   
 
@@ -157,7 +246,11 @@ It follows the [JAMstack architecture](https://jamstack.org) by using Git as a s
 
   
 
+  
+
 - Netlify function support, see `lambda` folder
+
+  
 
   
 
@@ -165,7 +258,11 @@ It follows the [JAMstack architecture](https://jamstack.org) by using Git as a s
 
   
 
+  
+
 - ..and more
+
+  
 
   
 
@@ -177,7 +274,11 @@ It follows the [JAMstack architecture](https://jamstack.org) by using Git as a s
 
   
 
+  
+
 - Node (I recommend using v8.2.0 or higher)
+
+  
 
   
 
@@ -185,7 +286,11 @@ It follows the [JAMstack architecture](https://jamstack.org) by using Git as a s
 
   
 
+  
+
 - [Netlify CLI](https://github.com/netlify/cli)
+
+  
 
   
 
@@ -197,7 +302,11 @@ It follows the [JAMstack architecture](https://jamstack.org) by using Git as a s
 
   
 
+  
+
 Netlify CMS can run in any frontend web environment, but the quickest way to try it out is by running it on a pre-configured starter site with Netlify. The example here is the Kaldi coffee company template (adapted from [One Click Hugo CMS](https://github.com/netlify-templates/one-click-hugo-cms)). Use the button below to build and deploy your own copy of the repository:
+
+  
 
   
 
@@ -209,7 +318,11 @@ Netlify CMS can run in any frontend web environment, but the quickest way to try
 
   
 
+  
+
 After clicking that button, you’ll authenticate with GitHub and choose a repository name. Netlify will then automatically create a repository in your GitHub account with a copy of the files from the template. Next, it will build and deploy the new site on Netlify, bringing you to the site dashboard when the build is complete. Next, you’ll need to set up Netlify’s Identity service to authorize users to log in to the CMS.
+
+  
 
   
 
@@ -221,11 +334,17 @@ After clicking that button, you’ll authenticate with GitHub and choose a repos
 
   
 
+  
+
 Pulldown a local copy of the Github repository Netlify created for you, with the name you specified in the previous step
 
   
 
+  
+
 ```
+
+  
 
   
 
@@ -233,7 +352,11 @@ $ git clone https://github.com/[GITHUB_USERNAME]/[REPO_NAME].git
 
   
 
+  
+
 $ cd [REPO_NAME]
+
+  
 
   
 
@@ -241,11 +364,17 @@ $ yarn
 
   
 
+  
+
 $ netlify dev # or ntl dev
 
   
 
+  
+
 ```
+
+  
 
   
 
@@ -257,13 +386,19 @@ This uses the new [Netlify Dev](https://www.netlify.com/products/dev/?utm_source
 
   
 
+  
+
 To test the CMS locally, you'll need to run a production build of the site:
 
   
 
   
 
+  
+
 ```
+
+  
 
   
 
@@ -271,11 +406,17 @@ $ npm run build
 
   
 
+  
+
 $ netlify dev # or ntl dev
 
   
 
+  
+
 ```
+
+  
 
   
 
@@ -287,7 +428,11 @@ $ netlify dev # or ntl dev
 
   
 
+  
+
 Media Libraries have been included in this starter as a default. If you are not planning to use `Uploadcare` or `Cloudinary` in your project, you **can** remove them from module import and registration in `src/cms/cms.js`. Here is an example of the lines to comment or remove them your project.
+
+  
 
   
 
@@ -297,11 +442,17 @@ Media Libraries have been included in this starter as a default. If you are not 
 
   
 
+  
+
 import  CMS  from  'netlify-cms-app'
 
   
 
+  
+
 // import uploadcare from 'netlify-cms-media-library-uploadcare'
+
+  
 
   
 
@@ -311,7 +462,11 @@ import  CMS  from  'netlify-cms-app'
 
   
 
+  
+
 import  AboutPagePreview  from  './preview-templates/AboutPagePreview'
+
+  
 
   
 
@@ -319,7 +474,11 @@ import  BlogPostPreview  from  './preview-templates/BlogPostPreview'
 
   
 
+  
+
 import  ProductPagePreview  from  './preview-templates/ProductPagePreview'
+
+  
 
   
 
@@ -329,7 +488,11 @@ import  IndexPagePreview  from  './preview-templates/IndexPagePreview'
 
   
 
+  
+
 // CMS.registerMediaLibrary(uploadcare);
+
+  
 
   
 
@@ -339,7 +502,11 @@ import  IndexPagePreview  from  './preview-templates/IndexPagePreview'
 
   
 
+  
+
 CMS.registerPreviewTemplate('index', IndexPagePreview)
+
+  
 
   
 
@@ -347,7 +514,11 @@ CMS.registerPreviewTemplate('about', AboutPagePreview)
 
   
 
+  
+
 CMS.registerPreviewTemplate('products', ProductPagePreview)
+
+  
 
   
 
@@ -355,7 +526,11 @@ CMS.registerPreviewTemplate('blog', BlogPostPreview)
 
   
 
+  
+
 ```
+
+  
 
   
 
@@ -365,11 +540,17 @@ Note: Don't forget to also remove them from `package.json` and `yarn.lock` / `pa
 
   
 
+  
+
 Example:
 
   
 
+  
+
 ```
+
+  
 
   
 
@@ -377,7 +558,11 @@ yarn remove netlify-cms-media-library-uploadcare
 
   
 
+  
+
 ```
+
+  
 
   
 
@@ -385,7 +570,11 @@ OR
 
   
 
+  
+
 ```
+
+  
 
   
 
@@ -393,7 +582,11 @@ yarn remove netlify-cms-media-library-cloudinary
 
   
 
+  
+
 ```
+
+  
 
   
 
@@ -403,7 +596,11 @@ yarn remove netlify-cms-media-library-cloudinary
 
   
 
+  
+
 ```
+
+  
 
   
 
@@ -411,7 +608,11 @@ $ gatsby new [SITE_DIRECTORY_NAME] https://github.com/netlify-templates/gatsby-s
 
   
 
+  
+
 $ cd [SITE_DIRECTORY_NAME]
+
+  
 
   
 
@@ -419,11 +620,17 @@ $ npm run build
 
   
 
+  
+
 $ npm run serve
 
   
 
+  
+
 ```
+
+  
 
   
 
@@ -435,7 +642,11 @@ $ npm run serve
 
   
 
+  
+
 Follow the [Netlify CMS Quick Start Guide](https://www.netlifycms.org/docs/quick-start/#authentication) to set up authentication, and hosting.
+
+  
 
   
 
@@ -447,7 +658,11 @@ Follow the [Netlify CMS Quick Start Guide](https://www.netlifycms.org/docs/quick
 
   
 
+  
+
 Windows users might encounter `node-gyp` errors when trying to npm install.
+
+  
 
   
 
@@ -457,7 +672,11 @@ To resolve, make sure that you have both Python 2.7 and the Visual C++ build env
 
   
 
+  
+
 ```
+
+  
 
   
 
@@ -465,11 +684,17 @@ npm config set python python2.7
 
   
 
+  
+
 npm install --global --production windows-build-tools
 
   
 
+  
+
 ```
+
+  
 
   
 
@@ -481,7 +706,11 @@ npm install --global --production windows-build-tools
 
   
 
+  
+
 MacOS users might also encounter some errors, for more info check [node-gyp](https://github.com/nodejs/node-gyp). We recommend using the latest stable node version.
+
+  
 
   
 
@@ -493,7 +722,11 @@ MacOS users might also encounter some errors, for more info check [node-gyp](htt
 
   
 
+  
+
 This plugin uses [gatsby-plugin-purgecss](https://www.gatsbyjs.org/packages/gatsby-plugin-purgecss/) and [bulma](https://bulma.io/). The bulma builds are usually ~170K but reduced 90% by purgecss.
+
+  
 
   
 
@@ -505,7 +738,11 @@ This plugin uses [gatsby-plugin-purgecss](https://www.gatsbyjs.org/packages/gats
 
   
 
+  
+
 Contributions are always welcome, no matter how large or small. Before contributing,
+
+  
 
   
 
