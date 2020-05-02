@@ -43,13 +43,15 @@ intro:
     production, roasting and brewing seriously and we’re glad to pass that
     knowledge to anyone. This is an edit via identity...
 main:
-  heading: .nan
-  description: "\n"
+  heading: qwert
+  description: |-
+    
+    qwerty
   image1:
-    alt: .nan
+    alt: qwert
     image: /img/apple-touch-icon.png
   image2:
-    alt: .nan
+    alt: qwerty
     image: /img/apple-touch-icon.png
   image3:
     alt: Coffee beans
