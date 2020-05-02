@@ -5,7 +5,9 @@ image: /img/home-jumbotron.jpg
 heading: Striving to create a community of learners across the different fields.
 subheading: .nan
 mainpitch:
-  title: Take a look around the website.
+  title: Strategica is a intra-college students' community of Jorhat Engineering
+    College, Assam, India, which hopes to work in close association with other
+    clubs of the college.
   description: |
     Find what interests you.
 description: Strategica is the ultimate spot for explore new things. Learn about
