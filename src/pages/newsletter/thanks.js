@@ -7,7 +7,7 @@ export default () => (
       <div className="container">
         <div className="content">
           <h1>Thank you!</h1>
-          <p>You are now subscribed to our news letter.</p>
+          <p>You are now subscribed to our newsletter.</p>
         </div>
       </div>
     </section>

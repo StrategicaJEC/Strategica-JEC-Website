@@ -13,8 +13,9 @@ export default class BlogIndexPage extends React.Component {
         <div
           className="full-width-image-container margin-top-0 animated zoomIn"
           style={{
-            backgroundImage: `url('/img/blog-index.jpg')`,
-            overflow: 'hidden'
+            backgroundImage: `url(https://res.cloudinary.com/dog2bkgwo/image/upload/v1588409916/Backgrounds/girl-writing-on-a-black-keyboard-6469_s5teqo.jpg)`,
+            overflow: 'hidden',
+            backgroundPosition: 'center 0%'
           }}
         >
           <h1

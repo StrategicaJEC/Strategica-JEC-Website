@@ -6,7 +6,7 @@ body{
 .landing .carousel-caption {
 	color: black !important;
 	padding: 2rem 3rem!important;
-	border-radius: 20px;
+	/* border-radius: 20px; */
 }
 
 .landing .carousel-caption-margin{
@@ -60,7 +60,7 @@ body{
 		margin-bottom: 30vh;
 	}
 	.social-bar-fixed{
-        left: 0;
+       right: 0rem !important;
     }
     .social-bar-fixed .socialItem {
         width: 40px;
@@ -71,6 +71,6 @@ body{
 .social-bar-fixed {
     position: fixed;
     bottom: 0;
-    left: 1rem;
+    right: 1rem;
     z-index: 99;
 }

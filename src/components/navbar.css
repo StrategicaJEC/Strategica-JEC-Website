@@ -56,3 +56,32 @@ a:hover {
         justify-content: flex-end;
     }
 }
+
+@media only screen and (max-width: 900px) {
+    .navbar{
+        padding: 0 !important;
+    } 
+    .navbar .dropdown-menu{
+        background-color: rgb(255, 68, 0) !important;
+        border: none;
+        margin: 0 20px;
+    }
+    .navbar .dropdown-item{
+        background-color: white !important;
+        margin: 5px 0;
+        border-radius: 10px;
+    }
+    .navbar .nav-item{
+        transition: none;
+        border-radius: 50px;
+        padding: 0.5rem;
+    }
+    .navbar .nav-item:hover{
+        transition: none;
+    }
+    .navbar .navbar-brand {
+        font-weight: 800;
+        font-size: 2rem;
+        padding-left: 1rem;
+    }
+}

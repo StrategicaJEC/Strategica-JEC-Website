@@ -21,11 +21,11 @@ export const IndexPageTemplate = ({
   <div className="landing">
     <div className="social-bar-fixed"><SocialBar/></div>
     <div className="hero">
-          <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
+          <div id="carouselStrategicaIndicators" className="carousel slide" data-ride="carousel">
             <ol className="carousel-indicators">
-              <li data-target="#carouselExampleIndicators" data-slide-to={0} className="active" />
-              <li data-target="#carouselExampleIndicators" data-slide-to={1} />
-              <li data-target="#carouselExampleIndicators" data-slide-to={2} />
+              <li data-target="#carouselStrategicaIndicators" data-slide-to={0} className="active" />
+              <li data-target="#carouselStrategicaIndicators" data-slide-to={1} />
+              <li data-target="#carouselStrategicaIndicators" data-slide-to={2} />
             </ol>
             <div className="carousel-inner">
               <div className="carousel-item active">
@@ -33,30 +33,36 @@ export const IndexPageTemplate = ({
                 <div className="carousel-caption d-md-block carousel-caption-main animated fadeInUp">
                   <img src="https://res.cloudinary.com/dog2bkgwo/image/upload/v1588403925/Logo/strategica-logo_sqscev.jpg" alt="" className="logo-hero" />
                   <h1 className="text-center"><u>WELCOME TO STRATEGICA</u></h1>
-                  <h4>Finance | Economics &amp; Consulting | Research | Analytics</h4>
+                  {/* <h4>Finance | Economics &amp; Consulting | Research | Analytics</h4> */}
                   <h5 className="mt-2">JORHAT ENGINEERING COLLEGE</h5>
                 </div>
               </div>
               <div className="carousel-item">
                 <div className="image-0 d-block w-100" style={{ backgroundImage: 'url(https://i.picsum.photos/id/600/1920/1080.jpg)' }}></div>
                 <div className="carousel-caption d-md-block carousel-caption-margin animated fadeInUp">
-                  <h2><u>INTERESTING FACTS</u></h2>
+                  <h2><u>INTERESTING BLOG POSTS</u></h2>
                   <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti at eaque obcaecati autem, eveniet amet maiores necessitatibus rem cum incidunt.</p>
+                  <Link className="btn btn-dark" to="/about">
+                    Go to Blogs →
+                  </Link>
                 </div>
               </div>
               <div className="carousel-item">
                 <div className="image-0 d-block w-100" style={{ backgroundImage: 'url(https://i.picsum.photos/id/1058/1920/1080.jpg)' }}></div>
                 <div className="carousel-caption d-md-block carousel-caption-margin animated fadeInUp">
-                  <h2><u>ANYTHING</u></h2>
+                  <h2><u>ABOUT US</u></h2>
                   <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti at eaque obcaecati autem, eveniet amet maiores necessitatibus rem cum incidunt.</p>
+                  <Link className="btn btn-dark" to="/about">
+                    Know more →
+                  </Link>
                 </div>
               </div>
             </div>
-            <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <a className="carousel-control-prev" href="#carouselStrategicaIndicators" role="button" data-slide="prev">
               <span className="carousel-control-prev-icon" aria-hidden="true" />
               <span className="sr-only">Previous</span>
             </a>
-            <a className="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <a className="carousel-control-next" href="#carouselStrategicaIndicators" role="button" data-slide="next">
               <span className="carousel-control-next-icon" aria-hidden="true" />
               <span className="sr-only">Next</span>
             </a>
