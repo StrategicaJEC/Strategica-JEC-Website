@@ -76,7 +76,7 @@ This club is mandated to inculcate the spirit of research, innovation and analyt
 
   
 
-- [Send an email to Rishparn Gogoi](mailto:gogoi.rishparn@gmail.com?subject=Requesting%20access%20to%20Strategica%27s%20admin%20panel)
+<!-- - [Send an email to Rishparn Gogoi](mailto:gogoi.rishparn@gmail.com?subject=Requesting%20access%20to%20Strategica%27s%20admin%20panel) -->
 
   
 
