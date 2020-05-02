@@ -11,9 +11,10 @@ export default class BlogIndexPage extends React.Component {
       <Layout>
       <SEO title="Blogs"/>
         <div
-          className="full-width-image-container margin-top-0"
+          className="full-width-image-container margin-top-0 animated zoomIn"
           style={{
             backgroundImage: `url('/img/blog-index.jpg')`,
+            overflow: 'hidden'
           }}
         >
           <h1
@@ -28,7 +29,7 @@ export default class BlogIndexPage extends React.Component {
             Latest Stories
           </h1>
         </div>
-        <section className="section">
+        <section className="section animated fadeInUp" style={{overflow:'hidden'}}>
           <div className="container">
             <div className="content">
               <BlogRoll />

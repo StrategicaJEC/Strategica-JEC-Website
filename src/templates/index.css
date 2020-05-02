@@ -58,5 +58,19 @@ body{
 	}
 	.landing .carousel-caption-margin{
 		margin-bottom: 30vh;
+	}
+	.social-bar-fixed{
+        left: 0;
+    }
+    .social-bar-fixed .socialItem {
+        width: 40px;
+        height: 40px;
+    }
 }
+
+.social-bar-fixed {
+    position: fixed;
+    bottom: 0;
+    left: 1rem;
+    z-index: 99;
 }

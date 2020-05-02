@@ -31,7 +31,7 @@
 }
 
 .nav-item:hover {
-    background-color: rgb(88, 1, 146);
+    background-color: rgb(255, 68, 0);
     border-radius: 20px;
     transition: all 0.3s ease-in-out;
 }

@@ -13,3 +13,7 @@
         text-align: right;
     }
 }
+
+.social-bar-footer  .socialItem {
+    margin: 0 0.5rem;
+}

@@ -11,22 +11,26 @@ import Member from "../components/member"
 import './team.css'
 
 const paraticlesOptions = {
-    "particles": {
-        "number": {
-            "value": 50
+    particles: {
+        number: {
+            value: 50
         },
-        "size": {
-            "value": 3
+        size: {
+            value: 3
         },
-        "color": {
-            "value": "#ffffff"
+        color: {
+            value: "#FFF"
+        },
+        line_linked: {
+            enable: true,
+            color: "#FFF",
         }
     },
-    "interactivity": {
-        "events": {
-            "onhover": {
-                "enable": true,
-                "mode": "repulse"
+    interactivity: {
+        events: {
+            onhover: {
+                enable: true,
+                mode: "repulse"
             }
         }
     }
@@ -64,7 +68,7 @@ const Team = () => {
                             name="Syed Ibtisam Tauhidi" 
                             role="Assistant Professor" 
                             dep="Computer Science and Engineering"
-                            url="https://res.cloudinary.com/dmmrlohoi/image/upload/v1588277213/Strategica/teams/f1_xnw7m6.jpg"
+                            url="https://res.cloudinary.com/dog2bkgwo/image/upload/v1588403528/Team/Syed_Ibtisam_Tauhidi_wds234.jpg"
                         />
                     </div>
                     <div className="col-sm-6 my-2 even">
@@ -72,7 +76,7 @@ const Team = () => {
                             name="Pankaj Sharma" 
                             role="Assistant Professor" 
                             dep="Electrical Engineering"
-                            url="https://res.cloudinary.com/dmmrlohoi/image/upload/v1588277213/Strategica/teams/f2_ogp1qy.jpg"
+                            url="https://res.cloudinary.com/dog2bkgwo/image/upload/v1588403528/Team/Pankaj_Sharma_beugzx.jpg"
                         />
                     </div>
                 </div>
@@ -88,7 +92,6 @@ const Team = () => {
                         <Member
                             name="Ibtizam Choudhury"
                             role="Club President"
-                            url="https://i.picsum.photos/id/234/250/250.jpg"
                             noImage={true}
                         />
                     </div>
@@ -96,7 +99,6 @@ const Team = () => {
                         <Member
                             name="Shreya Simanta Sarmah" 
                             role="Club Secretary"
-                            url="https://i.picsum.photos/id/137/250/250.jpg"
                             noImage={true}
                         />
                     </div>
@@ -105,7 +107,6 @@ const Team = () => {
                         invert={true}  
                             name="Arpita Sarkar" 
                             role="Social Media Head"
-                            url="https://i.picsum.photos/id/337/250/250.jpg"
                             noImage={true}
                         />
                     </div>
@@ -114,7 +115,6 @@ const Team = () => {
                             invert={true} 
                             name="Rishparn Gogoi" 
                             role="Design head"
-                            url="https://i.picsum.photos/id/265/250/250.jpg"
                             noImage={true}
                         />
                     </div>
@@ -124,7 +124,6 @@ const Team = () => {
                         <Member  
                             name="Subhranan Bora" 
                             role="PR & Event Head"
-                            url="https://i.picsum.photos/id/366/250/250.jpg"
                             noImage={true}
                         />
                     </div>
@@ -132,7 +131,6 @@ const Team = () => {
                         <Member  
                             name="Parishmita Das" 
                             role="Content Head"
-                            url="https://i.picsum.photos/id/265/250/250.jpg"
                             noImage={true}
                         />
                     </div>
@@ -141,7 +139,6 @@ const Team = () => {
                             invert={true} 
                             name="Seemanta Shome" 
                             role="Economics & Consulting Head"
-                            url="https://i.picsum.photos/id/232/250/250.jpg"
                             noImage={true}
                         />
                     </div>
@@ -150,7 +147,6 @@ const Team = () => {
                             invert={true} 
                             name="Anurag Kashyap" 
                             role="Finance Head"
-                            url="https://i.picsum.photos/id/637/250/250.jpg"
                             noImage={true}
                         />
                     </div>
@@ -160,7 +156,6 @@ const Team = () => {
                         <Member  
                             name="Akangshya Pathak" 
                             role="Analytics Head"
-                            url="https://i.picsum.photos/id/537/250/250.jpg"
                             noImage={true}
                         />
                     </div>
@@ -168,7 +163,6 @@ const Team = () => {
                         <Member  
                             name="Mriganka Mandal" 
                             role="Research Head"
-                            url="https://i.picsum.photos/id/437/250/250.jpg"
                             noImage={true}
                         />
                     </div>
@@ -177,7 +171,6 @@ const Team = () => {
                             invert={true} 
                             name="Bedabrat Talukdar" 
                             role="Resource Head"
-                            url="https://i.picsum.photos/id/288/250/250.jpg"
                             noImage={true}
                         />
                     </div>
@@ -194,14 +187,14 @@ const Team = () => {
                         <Member  
                             name="Shubhasmit Malakar" 
                             role="Alumni Mentor"
-                            url="https://res.cloudinary.com/dmmrlohoi/image/upload/v1588276822/Strategica/teams/alumni1_btacvj.jpg"
+                            url="https://res.cloudinary.com/dog2bkgwo/image/upload/v1588403593/Team/Shubhasmit_Malakar_pipenc.jpg"
                         />
                     </div>
                     <div className="col-md-6 even">
                         <Member  
                             name="Arnab Kishor Bordoloi" 
                             role="Alumni Mentor"
-                            url="https://res.cloudinary.com/dmmrlohoi/image/upload/v1588276822/Strategica/teams/alumni2_riqmba.jpg"
+                            url="https://res.cloudinary.com/dog2bkgwo/image/upload/v1588403592/Team/Arnab_Kishor_Bordoloi_huw0jz.jpg"
                         />
                     </div>
                 </div>
@@ -211,7 +204,7 @@ const Team = () => {
                             invert={true}  
                             name="Nishant Saikia"
                             role="Alumni Mentor"
-                            url="https://res.cloudinary.com/dmmrlohoi/image/upload/v1588276823/Strategica/teams/alumni3_xie7ye.jpg"
+                            url="https://res.cloudinary.com/dog2bkgwo/image/upload/v1588403594/Team/Nishant_Saikia_rdwevk.jpg"
                         />
                     </div>
                     <div className="col-md-6 even">
@@ -219,7 +212,7 @@ const Team = () => {
                             invert={true}  
                             name="Kharan Basumatary" 
                             role="Alumni Mentor"
-                            url="https://res.cloudinary.com/dmmrlohoi/image/upload/v1588276823/Strategica/teams/alumni4_ymusne.jpg"
+                            url="https://res.cloudinary.com/dog2bkgwo/image/upload/v1588403592/Team/Kharan_Basumatary_iqzxdw.jpg"
                         />
                     </div>
                 </div>
@@ -235,14 +228,14 @@ const Team = () => {
                         <Member  
                             name="Trideep Kr. Batchayan" 
                             role="Senior Member"
-                            url="https://res.cloudinary.com/dmmrlohoi/image/upload/v1588276822/Strategica/teams/sm1_kp10um.jpg"
+                            url="https://res.cloudinary.com/dog2bkgwo/image/upload/v1588403664/Team/Trideep_Kr._Batchayan_kkp7ge.jpg"
                         />
                     </div>
                     <div className="col-md-6 even">
                         <Member  
                             name="Dibyajyoti Chatterjee" 
                             role="Senior Member"
-                            url="https://res.cloudinary.com/dmmrlohoi/image/upload/v1588276822/Strategica/teams/sm2_qonyef.jpg"
+                            url="https://res.cloudinary.com/dog2bkgwo/image/upload/v1588403663/Team/Dibyajyoti_Chatterjee_nwwqcw.jpg"
                         />
                     </div>
                 </div>
@@ -252,7 +245,7 @@ const Team = () => {
                             invert={true}  
                             name="Partha Pratim Mazumder" 
                             role="Senior Member"
-                            url="https://res.cloudinary.com/dmmrlohoi/image/upload/v1588276823/Strategica/teams/sm3_ygsvuu.jpg"
+                            url="https://res.cloudinary.com/dog2bkgwo/image/upload/v1588403663/Team/Partha_Pratim_Mazumder_qsjd5b.jpg"
                         />
                     </div>
                     <div className="col-md-6 even">
@@ -260,7 +253,7 @@ const Team = () => {
                             invert={true}  
                             name="Rohit Deka" 
                             role="Senior Member"
-                            url="https://res.cloudinary.com/dmmrlohoi/image/upload/v1588276823/Strategica/teams/sm4_ewtgy0.jpg"
+                            url="https://res.cloudinary.com/dog2bkgwo/image/upload/v1588403663/Team/Rohit_Deka_xfnjuq.jpg"
                         />
                     </div>
                 </div>
@@ -270,7 +263,7 @@ const Team = () => {
                             invert={true}  
                             name="Jayant Siktia" 
                             role="Senior Member"
-                            url="https://res.cloudinary.com/dmmrlohoi/image/upload/v1588276823/Strategica/teams/sm5_kemrpi.jpg"
+                            url="https://res.cloudinary.com/dog2bkgwo/image/upload/v1588403663/Team/Jayant_Siktia_xbfhgr.jpg"
                         />
                     </div>
                 </div>

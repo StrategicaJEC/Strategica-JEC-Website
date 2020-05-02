@@ -1,0 +1,33 @@
+.collab {
+    width: 100vw;
+}
+
+.collab .banner {
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  text-align: center;
+  padding: 0 !important;
+  background: url(../images//art-5.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 40%;
+}
+
+.collab .banner h1 {
+  background-color: rgba(255, 255, 255, 0.911);
+  padding: 1rem;
+}
+
+.collab .container {
+    padding: 0 6rem;
+}
+
+.collab img {
+    height: 20rem;
+}
+

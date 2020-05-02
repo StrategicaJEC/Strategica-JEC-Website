@@ -1,5 +1,5 @@
 .team{
-	color: white;
+	color: rgb(255, 255, 255);
 	margin-top: 10vh;
 }
 
@@ -33,6 +33,7 @@
 	left: 0;
 	z-index: -1;
 	background-color: #232741;
+	/* background-color: rgb(255, 255, 255); */
 }
 
 .particle-cover {

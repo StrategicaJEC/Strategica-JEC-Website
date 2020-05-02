@@ -8,7 +8,6 @@ import BlogRoll from '../components/BlogRoll'
 import SocialBar from '../components/SocialBar'
 
 import './index.css'
-import Logo from '../images/logo.jpg'
 
 export const IndexPageTemplate = ({
   image,
@@ -20,7 +19,7 @@ export const IndexPageTemplate = ({
   intro,
 }) => (
   <div className="landing">
-    <SocialBar/>
+    <div className="social-bar-fixed"><SocialBar/></div>
     <div className="hero">
           <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
             <ol className="carousel-indicators">
@@ -32,7 +31,7 @@ export const IndexPageTemplate = ({
               <div className="carousel-item active">
                 <div className="image-0 d-block w-100" style={{ backgroundImage: 'url(https://i.picsum.photos/id/1076/1920/1080.jpg)' }}></div>
                 <div className="carousel-caption d-md-block carousel-caption-main animated fadeInUp">
-                  <img src={Logo} alt="" className="logo-hero" />
+                  <img src="https://res.cloudinary.com/dog2bkgwo/image/upload/v1588403925/Logo/strategica-logo_sqscev.jpg" alt="" className="logo-hero" />
                   <h1 className="text-center"><u>WELCOME TO STRATEGICA</u></h1>
                   <h4>Finance | Economics &amp; Consulting | Research | Analytics</h4>
                   <h5 className="mt-2">JORHAT ENGINEERING COLLEGE</h5>
