@@ -45,9 +45,7 @@ This club is mandated to inculcate the spirit of research, innovation and analyt
 
   
 
-- Add the path '/admin' to the homepage URL. Like [http://example.com/admin](http://example.com/admin)
-
-  
+- Add the path '/admin' to the homepage URL. Like [http://example.com/admin](http://example.com/admin) OR go the the login link provided in the footer
 
   
 

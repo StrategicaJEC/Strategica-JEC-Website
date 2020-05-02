@@ -29,14 +29,14 @@ const Footer = class extends React.Component {
                       </Link>
                     </li>
                     <li>
-                      <Link className="navbar-item" to="/products">
-                        Products
-                      </Link>
-                    </li>
-                    <li>
                       <Link className="navbar-item" to="/newsletter">
                         Newsletter
                       </Link>
+                    </li>
+                    <li>
+                      <a className="navbar-item" href="/admin">
+                        Login
+                      </a>
                     </li>
                   </ul>
                 </section>
@@ -110,14 +110,7 @@ const Footer = class extends React.Component {
                             </span>
             </div>
             <div className="col-md-6 pointer creators">
-              Website developed by &nbsp;
-                            {/* <a href="https://www.linkedin.com/in/rishi-gogoi/" target="_blank" rel="noreferrer noopener"> */}
-                Rishparn Gogoi
-                            {/* </a> */}
-                             &nbsp;&amp;&nbsp;
-                            {/* <a href="about:blank" target="_blank" rel="noreferrer noopener"> */}
-                Subhranan Bora
-                            {/* </a> */}
+              Website developed by <span className="only-mobile"><br/></span> Rishparn Gogoi & Subhranan Bora
             </div>
           </div>
         </div>

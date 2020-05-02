@@ -12,6 +12,9 @@
     .footer .creators{
         text-align: right;
     }
+    .footer .only-mobile{
+        display: none;
+    }
 }
 
 .social-bar-footer  .socialItem {
