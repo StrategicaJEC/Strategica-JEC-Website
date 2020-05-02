@@ -9,11 +9,11 @@ const Collaborations = () => {
     return (
         <Layout>
             <SEO title="Events" />
-            <div className="collab animated fadeIn">
-                <div className="container banner">
+            <div className="collab">
+                <div className="container-fluid banner animated zoomIn">
                     <h1 className="display-3">COLLABORATOINS</h1>
                 </div>
-                <div className="container py-4 main">
+                <div className="container py-4 main animated fadeIn slow">
                     <h2>Strategica-JEC takes pride in collaborating with Consulting & Analytics Club, IIT-Guwahati as our knowledge partner.</h2>
                     <div className="text-center">
                         <img src="https://res.cloudinary.com/dog2bkgwo/image/upload/v1588403980/Logo/consulting_and_analytics_club_IITG_zskq5b.jpg" alt="Consulting & Analytics Club, IIT-G Logo" />

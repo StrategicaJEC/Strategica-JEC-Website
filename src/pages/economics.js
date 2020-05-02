@@ -33,6 +33,7 @@ const Economics = () => (
                         />
                         <ul>
                             <li>Bijay Verma</li>
+                            <li>Debashish Talukdar</li>
                             <li>Hiya Bandana Bora</li>
                             <li>Seemanta Shome</li>
                             <li>Shreya Simanta Sarmah</li>

@@ -8,11 +8,11 @@ const About = () => {
     return (
         <Layout>
         <SEO title="Events"/>
-            <div className="events animated fadeIn">
-                <div className="container banner">
-                    <h1 className="display-3">EVENTS AND ACTIVITIES</h1>
+            <div className="events">
+                <div className="container-fluid banner animated zoomIn">
+                    <h1 className="display-3">Events and Activities</h1>
                 </div>
-                <div className="container-fluid py-4 main">
+                <div className="container-fluid py-4 main animated fadeIn slow">
                     <div className="timeline">
                         <div className="time-container left">
                             <div className="content">

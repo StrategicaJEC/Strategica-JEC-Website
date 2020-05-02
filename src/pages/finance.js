@@ -35,6 +35,7 @@ const Finance = () => (
                             <li>Akangshya Pathak</li>
                             <li>Aritra Kaushik</li>
                             <li>Bedabrat Talukdar</li>
+                            <li>Prasanta Jyoti Malakar</li>
                             <li>Rimon Dutta</li>
                             <li>Seemanta Shome</li>
                             <li>Sreeya Dutta</li>

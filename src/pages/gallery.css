@@ -1,0 +1,12 @@
+.gallery {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery h4 {
+    background-color: orangered;
+    color: white;
+    padding: 1rem;
+}

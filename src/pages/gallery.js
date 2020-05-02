@@ -7,7 +7,9 @@ import "./gallery.css";
 const Gallery = () => {
     return (
         <Layout>
-            gallery ROUTE working
+            <div className="container-fluid gallery">
+                <h4 className="text-center">COMMING SOON</h4>
+            </div>
         </Layout>
     )
 }

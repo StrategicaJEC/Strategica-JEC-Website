@@ -72,5 +72,5 @@ body{
     position: fixed;
     bottom: 0;
     right: 1rem;
-    z-index: 99;
+    z-index: 20;
 }

@@ -4,11 +4,14 @@ import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 
+import SEO from '../components/seo'
+
 export const AboutPageTemplate = ({ title, content, contentComponent }) => {
   const PageContent = contentComponent || Content
 
   return (
-    <section className="section section--gradient">
+    <section className="section section--gradient animated fadeIn">
+      <SEO title="About Us"/>
       <div className="container">
         <div className="columns">
           <div className="column is-10 is-offset-1">

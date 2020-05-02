@@ -12,15 +12,16 @@
   /* align-items: center; */
   text-align: center;
   padding: 0 !important;
-  background: url(../images//art-5.png);
+  background: url(https://res.cloudinary.com/dog2bkgwo/image/upload/v1588412030/Backgrounds/low-angle-photography-of-pile-of-stainless-steel-chairs-with-691485_osongl.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 40%;
 }
 
 .events .banner h1 {
-  background-color: rgba(255, 255, 255, 0.911);
+  background-color: rgba(255, 179, 117, 0.911);
   padding: 1rem;
+  font-weight: 600;
 }
 
 .events .container {
