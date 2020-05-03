@@ -14,7 +14,7 @@ const Finance = () => (
                 <div className="row">
                     <div className="row heading-row">
                         <div className="col d-flex justify-content-center align-items-start flex-column">
-                            <h1 className="text-center"><u>FINANCE WING</u></h1>
+                            <h1 className="text-center"><u>FINANCE WING 2020-21</u></h1>
                             <span className="mt-2"><i>"Price is what you pay. Value is what you get."<br/>~ Warren Buffet</i></span>
                         </div>
                     </div>

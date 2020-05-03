@@ -14,7 +14,7 @@ const Economics = () => (
                 <div className="row">
                     <div className="row heading-row">
                         <div className="col d-flex justify-content-center align-items-start flex-column">
-                            <h1 className="text-center"><u>ECONOMICS & CONSULTING WING</u></h1>
+                            <h1 className="text-center"><u>ECONOMICS & CONSULTING WING 2020-21</u></h1>
                             <span className="mt-2"><i>"Labour was the first price, the original purchase - money that was paid for all things. It was not by gold or by silver, but by labour, that all wealth of the world was originally purchased."<br />~ Adam Smith</i></span>
                         </div>
                     </div>

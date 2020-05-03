@@ -14,7 +14,7 @@ const Research = () => (
                 <div className="row">
                     <div className="row heading-row">
                         <div className="col d-flex justify-content-center align-items-start flex-column">
-                            <h1 className="text-center"><u>RESEARCH WING</u></h1>
+                            <h1 className="text-center"><u>RESEARCH WING 2020-21</u></h1>
                             <span className="mt-2"><i>"The true laboratory is the mind, where behind illusions we uncover the laws of truth"<br/>~ Jagadish Chandra Bose</i></span>
                         </div>
                     </div>

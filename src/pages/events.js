@@ -18,7 +18,7 @@ const About = () => {
                             <div className="content">
                                 <h2>30 April 2020</h2>
                                 <p>
-                                    A moment of pride arrived for us as we got the opportunity to hear to retired IAS officer, <strong>Mr. Anil Swarup</strong>, former Coal and School Education Secretary on <strong>'Digital India:What COVID-19 has to offer in this regard'</strong> in our club's webinar session.
+                                    A moment of pride arrived for us as we got the opportunity to hear to retired IAS officer, <strong>Mr. Anil Swarup</strong>, former Coal and School Education Secretary of India on <strong>'Digital India:What COVID-19 has to offer in this regard'</strong> in our club's webinar session.
                                 </p>
                             </div>
                         </div>

@@ -13,7 +13,7 @@ const Analytics = () => (
                 <div className="row">
                     <div className="row heading-row">
                         <div className="col d-flex justify-content-center align-items-start flex-column">
-                            <h1 className="text-center"><u>ANALYTICS WING</u></h1>
+                            <h1 className="text-center"><u>ANALYTICS WING 2020-21</u></h1>
                             <span className="mt-2"><i>"Information is the oil of the 21st century and analytics is the combustion engine."<br />~ Peter Sondergaard</i></span>
                         </div>
                     </div>

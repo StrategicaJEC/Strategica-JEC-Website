@@ -82,7 +82,7 @@ const Team = () => {
                 </div>
             </div>
             <div className="container lead-team sections">
-                <h1 className="text-center heading-t">LEAD TEAM</h1>
+                <h1 className="text-center heading-t">LEAD TEAM 2020-21</h1>
                 <hr/>
                 <div className="text-center mb-2">
                     <span>Leaders instill in their people a hope for success and a belief in themselves. Positive leaders empower people to accomplish their goals."</span>
