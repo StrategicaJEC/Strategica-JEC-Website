@@ -18,7 +18,7 @@ const SocialBar = () => {
                
             </div>
             <div className="socialItem" style={{ backgroundColor: '#0077b5' }}>
-            <OutboundLink href="https://www.linkedin.com" target="_new">
+            <OutboundLink href="https://www.linkedin.com/company/strategica-jec/" target="_new">
                 <i class="fab fa-linkedin-in" />
             </OutboundLink>
             </div>

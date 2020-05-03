@@ -1,0 +1,64 @@
+.shareBar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    bottom: 20vh;
+}
+
+.shareBar a {
+    color: rgb(182, 182, 182);
+    transition: all 0.1s ease-in-out;
+    filter: grayscale(1) brightness(1.3);
+}
+.shareBar a:hover {
+    color: rgb(0, 67, 212);
+    transform: scale(1.5);
+    transition: all 0.1s ease-in-out;
+    filter: grayscale(0) brightness(1);
+}
+
+.shareBar .fab{
+    font-size: 1.7rem;
+}
+
+.shareBar .far {
+    font-size: 1.7rem;
+}
+
+.shareBar  .socialItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    color: rgb(0, 0, 0) !important;
+    padding: 2.5rem 2rem;
+}
+
+@media only screen and (max-width:900px){
+    .shareBar{
+        left: 0;
+    }
+    .shareBar  .socialItem {
+        width: 40px;
+        height: 40px;
+        padding: 2rem 3rem 2rem 0.5rem;
+    }
+    .shareBar {
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        position: static;
+    }
+
+    .shareBar .fab{
+        font-size: 1.5rem;
+    }
+    
+    .shareBar .far {
+        font-size: 1.5rem;
+    }
+}

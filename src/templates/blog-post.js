@@ -5,6 +5,10 @@ import { Helmet } from 'react-helmet'
 import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
+import ShareBar from '../components/ShareBar'
+import {
+  isMobile
+} from "react-device-detect";
 
 export const BlogPostTemplate = ({
   content,
@@ -17,7 +21,7 @@ export const BlogPostTemplate = ({
   const PostContent = contentComponent || Content
 
   return (
-    <section className="section">
+    <section className="section blog-post-page-strategica">
       {helmet || ''}
       <div className="container content">
         <div className="columns">
@@ -25,7 +29,35 @@ export const BlogPostTemplate = ({
             <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
               {title}
             </h1>
-            <p>{description}</p>
+            <div className="container-fluid" style={{padding: '0'}}>
+              <div className="row">
+                <div className="col-md-6">
+                  <p>{description}</p>
+                </div>
+                {isMobile?(
+                  <div className="col-md-6 text-md-right mt-3">
+                  <span style={{backgroundColor: 'black', borderRadius: '10px', color: 'white', padding:'0.5rem 1rem', cursor: 'pointer'}}>
+                  Share this post
+                        <i
+                        className="fas fa-share-alt mb-4 ml-2"
+                        onClick={() => {
+                          if (navigator.share) {
+                            console.log("workingaaasss");
+
+                            navigator.share({
+                              title: window.document.title,
+                              url: window.document.location.href
+                            }).catch(console.error)
+
+                          }
+                        }}
+                        />
+                    </span>
+                </div>
+                ):null}
+              </div>
+               <ShareBar/>
+            </div>
             <PostContent content={content} />
             {tags && tags.length ? (
               <div style={{ marginTop: `4rem` }}>

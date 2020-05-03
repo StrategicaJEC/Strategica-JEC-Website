@@ -32,6 +32,7 @@ const TemplateWrapper = ({ children }) => {
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script src="https://kit.fontawesome.com/6040cb7b15.js" crossorigin="anonymous"></script>
         <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet"></link>
       </Helmet>
       <Navbar />
       <div>{children}</div>
