@@ -6,7 +6,7 @@ import {
 
 import './ShareBar.css'
 
-const ShareBar = () => {
+const ShareBar = (title, url) => {
 
     const [animation, setanimation] = useState("animated fadeIn slow delay-3s")
 
@@ -20,17 +20,17 @@ const ShareBar = () => {
     return (
         <div className={`shareBar `+animation}>
             <div className="socialItem" >
-                <OutboundLink href={`https://www.facebook.com/sharer.php?u=`+window.document.location.href} target="_new">
+                <OutboundLink href={`https://www.facebook.com/sharer.php?u=`+ url} target="_new">
                     <i class="fab fa-facebook-f" style={{color: '#4064ad'}}/>
                 </OutboundLink>
             </div>
             <div className="socialItem">
-                <OutboundLink href={`https://www.linkedin.com/shareArticle?mini=true&url=`+window.document.location.href+`&title=`+window.document.title} target="_new">
+                <OutboundLink href={`https://www.linkedin.com/shareArticle?mini=true&url=`+ url+`&title=`+ title} target="_new">
                <i className="fab fa-linkedin"  style={{color: '#0077b5'}}/>
             </OutboundLink>
             </div>
             <div className="socialItem">
-            <OutboundLink href={`https://twitter.com/intent/tweet?url=`+window.document.location.href+`&text=Check this out!&hashtags=strategica`} target="_new">
+            <OutboundLink href={`https://twitter.com/intent/tweet?url=`+ url+`&text=Check this out!&hashtags=strategica`} target="_new">
                 <i className="fab fa-twitter" style={{color: '#1DA1F2'}}/>
             </OutboundLink>
             </div>

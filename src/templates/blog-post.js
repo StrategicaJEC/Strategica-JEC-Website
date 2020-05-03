@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect, useState} from 'react'
 import PropTypes from 'prop-types'
 import { kebabCase } from 'lodash'
 import { Helmet } from 'react-helmet'
@@ -18,7 +18,16 @@ export const BlogPostTemplate = ({
   title,
   helmet,
 }) => {
+
   const PostContent = contentComponent || Content
+
+  const [wurl, wseturl] = useState()
+  const [wtitle, wsettitle] = useState()
+
+  useEffect(() => {
+    wseturl(window.document.location.href);
+    wsettitle(window.document.title);
+  }, [])
 
   return (
     <section className="section blog-post-page-strategica">
@@ -43,12 +52,10 @@ export const BlogPostTemplate = ({
                         onClick={() => {
                           if (navigator.share) {
                             console.log("workingaaasss");
-
                             navigator.share({
-                              title: window.document.title,
-                              url: window.document.location.href
+                              title: wtitle,
+                              url: wurl
                             }).catch(console.error)
-
                           }
                         }}
                         />
@@ -56,7 +63,7 @@ export const BlogPostTemplate = ({
                 </div>
                 ):null}
               </div>
-               <ShareBar/>
+               <ShareBar title={wtitle} url={wurl}/>
             </div>
             <PostContent content={content} />
             {tags && tags.length ? (
