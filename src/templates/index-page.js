@@ -42,7 +42,7 @@ export const IndexPageTemplate = ({
                 <div className="carousel-caption d-md-block carousel-caption-margin animated fadeInUp">
                   <h2><u>Interesting Blog Posts</u></h2>
                   <p>Keep up with our latest work</p>
-                  <Link className="btn btn-dark" to="/about">
+                  <Link className="btn btn-dark" to="/blog">
                     Go to Blogs →
                   </Link>
                 </div>
