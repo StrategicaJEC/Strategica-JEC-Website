@@ -67,6 +67,12 @@ a:hover {
         border: none;
         margin: 0 10px;
     }
+    .navbar .nav-item {
+        font-size: 1.5vw;
+    }
+    .navbar-collapse{
+        justify-content: flex-end;
+    }
     .navbar .dropdown-item{
         background-color: white !important;
         margin: 5px 0;
@@ -84,5 +90,11 @@ a:hover {
         font-weight: 800;
         font-size: 2rem;
         padding-left: 1rem;
+    }
+    .navbar .collapsing li{
+        font-size: 1rem !important;
+    }
+    .navbar .show li{
+        font-size: 1rem !important;
     }
 }

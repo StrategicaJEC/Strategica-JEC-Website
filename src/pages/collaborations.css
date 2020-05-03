@@ -37,5 +37,18 @@
     padding: 0rem;
     font-weight: normal;
   }
+  .collab img {
+    width: 80vw;
+    height: auto;
+}
+.collab .main {
+    padding: 0 3rem;
+  }
+}
+
+@media only screen and (min-width:900px) {
+  .collab .main {
+    padding: 0 10rem;
+  }
 }
 
