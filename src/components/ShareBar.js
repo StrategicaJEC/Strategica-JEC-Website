@@ -6,7 +6,7 @@ import {
 
 import './ShareBar.css'
 
-const ShareBar = (title, url) => {
+const ShareBar = ({title, url}) => {
 
     const [animation, setanimation] = useState("animated fadeIn slow delay-3s")
 

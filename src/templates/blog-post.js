@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react'
+import React, { useEffect, useState } from 'react'
 import PropTypes from 'prop-types'
 import { kebabCase } from 'lodash'
 import { Helmet } from 'react-helmet'
@@ -38,32 +38,30 @@ export const BlogPostTemplate = ({
             <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
               {title}
             </h1>
-            <div className="container-fluid" style={{padding: '0'}}>
+            <div className="container-fluid" style={{ padding: '0' }}>
               <div className="row">
                 <div className="col-md-6">
                   <p>{description}</p>
                 </div>
-                {isMobile?(
+                {isMobile ? (
                   <div className="col-md-6 text-md-right mt-3">
-                  <span style={{backgroundColor: 'black', borderRadius: '10px', color: 'white', padding:'0.5rem 1rem', cursor: 'pointer'}}>
-                  Share this post
+                    <span style={{ backgroundColor: 'black', borderRadius: '10px', color: 'white', padding: '0.5rem 1rem', cursor: 'pointer' }}
+                      onClick={() => {
+                        if (navigator.share) {
+                          navigator.share({
+                            title: wtitle,
+                            url: wurl
+                          }).catch(console.error)
+                        }
+                      }}>
+                      Share this post
                         <i
-                        className="fas fa-share-alt mb-4 ml-2"
-                        onClick={() => {
-                          if (navigator.share) {
-                            console.log("workingaaasss");
-                            navigator.share({
-                              title: wtitle,
-                              url: wurl
-                            }).catch(console.error)
-                          }
-                        }}
-                        />
+                        className="fas fa-share-alt mb-4 ml-2" />
                     </span>
-                </div>
-                ):null}
+                  </div>
+                ) : null}
               </div>
-               <ShareBar title={wtitle} url={wurl}/>
+              <ShareBar title={wtitle} url={wurl} />
             </div>
             <PostContent content={content} />
             {tags && tags.length ? (
