@@ -102,6 +102,9 @@ const Footer = class extends React.Component {
             </div>
           </div>
         </div>
+        <div className="container-fluid text-center mb-4">
+          Sponsored by <a href="https://trusnetix.com/" target="_blank" rel="noreferrer noopener"><strong>Trusnetix</strong></a>
+        </div>
         <div className="container-fluid copyright">
           <div className="row">
             <div className="col-md-6 text-left">
