@@ -11,7 +11,7 @@ const Collaborations = () => {
             <SEO title="Events" description="Collaborations of Strategica, Jorhat Engineering College with other organizations, Jorhat Engineering College" />
             <div className="collab">
                 <div className="container-fluid banner">
-                    <h1>COLLABORATOINS</h1>
+                    <h1>COLLABORATIONS</h1>
                 </div>
                 <div className="container-fluid py-4 main animated fadeIn slow">
                     <h2>Strategica-JEC takes pride in collaborating with Consulting & Analytics Club, IIT-Guwahati as our knowledge partner.</h2>
