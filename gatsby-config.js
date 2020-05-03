@@ -8,15 +8,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: "UA-165298546-1",
+        trackingId: "UA-165298546-2",
         head: true,
-        // Setting this parameter is optional
         anonymize: true,
-        // Setting this parameter is also optional
         respectDNT: true,
-        // Avoids sending pageview hits from custom paths
         pageTransitionDelay: 0,
-        // Enables Google Optimize using your container Id
       }
     },
     {

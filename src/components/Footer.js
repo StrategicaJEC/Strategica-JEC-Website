@@ -10,7 +10,7 @@ const Footer = class extends React.Component {
     return (
       <footer className="footer has-background-black has-text-white-ter">
         <div className="content has-text-centered">
-          <img src="https://res.cloudinary.com/dog2bkgwo/image/upload/v1588403925/Logo/strategica-logo_sqscev.jpg" alt="strategica logo" style={{ height: '10rem' }} />
+          <img src="https://res.cloudinary.com/dog2bkgwo/image/upload/v1588519017/Logo/strategica-logo_uvxy9j.jpg" alt="strategica logo" style={{ height: '10rem' }} />
         </div>
         <div className="content has-text-centered has-background-black has-text-white-ter">
           <div className="container has-background-black has-text-white-ter">
