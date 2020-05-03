@@ -10,7 +10,7 @@ const Footer = class extends React.Component {
     return (
       <footer className="footer has-background-black has-text-white-ter">
         <div className="content has-text-centered">
-          <img src="https://res.cloudinary.com/dog2bkgwo/image/upload/v1588403925/Logo/strategica-logo_sqscev.jpg" alt="strategica logo" style={{height: '10rem'}}/>
+          <img src="https://res.cloudinary.com/dog2bkgwo/image/upload/v1588403925/Logo/strategica-logo_sqscev.jpg" alt="strategica logo" style={{ height: '10rem' }} />
         </div>
         <div className="content has-text-centered has-background-black has-text-white-ter">
           <div className="container has-background-black has-text-white-ter">
@@ -68,42 +68,20 @@ const Footer = class extends React.Component {
                 </section>
               </div>
               <div className="column is-4 social social-bar-footer">
-                {/* <a title="facebook" href="https://facebook.com">
-                  <img
-                    src={facebook}
-                    alt="Facebook"
-                    style={{ width: '1em', height: '1em' }}
-                  />
-                </a>
-                <a title="twitter" href="https://twitter.com">
-                  <img
-                    className="fas fa-lg"
-                    src={twitter}
-                    alt="Twitter"
-                    style={{ width: '1em', height: '1em' }}
-                  />
-                </a>
-                <a title="instagram" href="https://instagram.com">
-                  <img
-                    src={instagram}
-                    alt="Instagram"
-                    style={{ width: '1em', height: '1em' }}
-                  />
-                </a>
-                <a title="vimeo" href="https://vimeo.com">
-                  <img
-                    src={vimeo}
-                    alt="Vimeo"
-                    style={{ width: '1em', height: '1em' }}
-                  />
-                </a> */}
-                <SocialBar/>
+                <SocialBar />
+        <div className="container-fluid text-center my-4">
+          <div className="row justify-content-center align-items-center mb-2">
+            <strong className="text-white">Sponsored by</strong>
+          </div>
+          <div className="row justify-content-center align-items-center">
+            <a href="https://trusnetix.com/" target="_blank" rel="noreferrer noopener">
+              <img src="https://res.cloudinary.com/dog2bkgwo/image/upload/v1588511737/Logo/trusnetix-logo_gv3dp9.jpg" alt="" style={{ height: '75px' }} />
+            </a>
+          </div>
+        </div>
               </div>
             </div>
           </div>
-        </div>
-        <div className="container-fluid text-center mb-4">
-          Sponsored by <a href="https://trusnetix.com/" target="_blank" rel="noreferrer noopener"><strong>Trusnetix</strong></a>
         </div>
         <div className="container-fluid copyright">
           <div className="row">
@@ -113,7 +91,7 @@ const Footer = class extends React.Component {
                             </span>
             </div>
             <div className="col-md-6 pointer creators">
-              Website developed by <span className="only-mobile"><br/></span> Rishparn Gogoi & Subhranan Bora
+              Website developed by <span className="only-mobile"><br /></span> Rishparn Gogoi & Subhranan Bora
             </div>
           </div>
         </div>

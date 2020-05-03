@@ -260,10 +260,16 @@ const Team = () => {
                 <div className="row">
                     <div className="col-md-6 odd">
                         <Member 
-                            invert={true}  
                             name="Jayant Siktia" 
                             role="Senior Member"
                             url="https://res.cloudinary.com/dog2bkgwo/image/upload/v1588424731/Team/Jayant-Siktia_qyefga.jpg"
+                        />
+                    </div>
+                    <div className="col-md-6 even">
+                        <Member 
+                            name="Jyotiska Bharadwaj" 
+                            role="Senior Member"
+                            url="https://res.cloudinary.com/dog2bkgwo/image/upload/v1588510935/Team/Jyotiska_Bharadwaj_udv7w6.jpg"
                         />
                     </div>
                 </div>

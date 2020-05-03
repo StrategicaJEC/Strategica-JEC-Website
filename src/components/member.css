@@ -12,6 +12,7 @@
 
 .member-card h3 {
     font-size: 1rem;
+    color: #474747;
 }
 
 .member-card .image {
@@ -62,14 +63,6 @@
         display: flex;
         justify-content: flex-end !important;
         align-items: center !important;
-    }
-    .member-card h1{
-        font-size: 1.5rem;
-        font-weight: 800;
-    }
-    
-    .member-card h3 {
-        font-size: 1rem;
     }
 }
 

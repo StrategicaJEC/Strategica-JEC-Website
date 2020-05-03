@@ -55,7 +55,14 @@
 	.team .sections {
 		background-color: rgba(0, 0, 0, 0.226);
 	}
-	.team .heading-1 {
+	.lead-team .team .heading-1 {
 		font-size: 2.2rem;
+	}
+	.faculty .member-card h1, .alumuni .member-card h1, .senior .member-card h1 {
+		font-size: 1.3rem !important;
+	}
+	.faculty .member-card h3, .alumuni .member-card h3, .senior .member-card h3 {
+		font-size: 1rem !important;
+		color: #474747;
 	}
 }
