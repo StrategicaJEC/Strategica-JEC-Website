@@ -7,7 +7,7 @@ featuredpost: true
 featuredimage: /img/rbi-hq.jpeg
 tags:
   - RBI
-  - covid-19
+  - COVID-19
   - lockdown
   - monetary policy committee
   - repo
