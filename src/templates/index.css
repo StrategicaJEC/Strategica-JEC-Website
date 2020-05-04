@@ -49,14 +49,14 @@ body{
 
 @media only screen and (max-width:900px){
 	.landing .carousel-caption{
-		margin-bottom: 10vh;
+		margin-bottom: 15vh;
 		padding: 1rem !important;
 	}
 	.landing h1{
 		font-size: 1.7rem !important;
 	}
 	.landing .carousel-caption-margin{
-		margin-bottom: 20vh;
+		margin-bottom: 25vh;
 	}
 	.social-bar-fixed{
        right: 0rem !important;

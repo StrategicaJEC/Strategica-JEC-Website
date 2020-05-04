@@ -20,3 +20,9 @@
 .social-bar-footer  .socialItem {
     margin: 0 0.5rem;
 }
+
+@media only screen and (max-width: 600px) {
+    .footer .creators{
+        font-size: 0.8rem;
+    }
+}
