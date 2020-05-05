@@ -38,4 +38,4 @@ To help the state with its expenditure on health infrastructure, effective quara
 
 Thus through this measures RBI infused the much required oxygen in the economy.Though the effects of inflation may be seen over the horizon in near future but RBI governor,Mr Shaktikanta Das said that this measures won't have any significant effect in the inflation situation for the time being as currently the inflation trend is on decline and this declining trend paves away  an opportunistic path for India to infuse liquidity in the system which will help in kick starting the economy.
 
-*(**Chandrasish Bhattacharjee** is our guest author who is a student of Zoology at **Cotton University**)*
+*(Chandrasish Bhattacharjee is our guest author who is a student of Zoology at Cotton University)*
