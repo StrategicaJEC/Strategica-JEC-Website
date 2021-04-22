@@ -1,0 +1,12 @@
+.registration {
+    padding: 5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.registration h4 {
+    background-color: orangered;
+    color: white;
+    padding: 1rem;
+}
